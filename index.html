@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Gussing Game</title>
+    <link rel="icon" href="/assets/background-img.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <p class="link-text">Developed by <span>Team Arcana</span></p>
+
+
+    
+
+    <div class="game">
+        <h1 class="game-text">Welcome to number gussing game</h1>
+        <a class="game-btn" href="#">play</a>
+    </div>
+
+    <div class="player-name--one">
+        <p class="error-one"></p>
+        <h1 class="game-name--one---text"> Player one name</h1>
+        <input class="game-name--one---input" type="text" placeholder="input player one name">
+    </div>
+
+    <div class="player-name--two">
+        <p class="error-two"></p>
+ 
+        <h1 class="game-name--two---text"> Player two name</h1>
+        <input class="game-name--two---input" type="text" placeholder="input player two name">
+    </div>
+
+
+    <div class="player-input--one">
+        <p class="error-three"></p>
+        <h1 class="game-input--one---text"> </h1>
+        <input class="game-input--one---input" type="text" placeholder="input number">
+        <button class="game-input--one---btn">go</button>
+    </div>
+
+    
+    <div class="player-input--two">
+        <p class="error-four"></p>
+
+        <h1 class="game-input--two---text"> </h1>
+        <input class="game-input--two---input" type="text" placeholder="gusse number">
+        <button class="game-input--two---btn">gusse</button>
+        
+        <p class="game-input--two---hints"></p>
+    </div>
+
+    <div class="winner">
+        <h1 class="winner-text"> Woo-hoo!</h1>
+       <h2 class="winner-text--name"></h2>
+       <img src="assets/victory.png" alt="img">
+       <canvas class="confetti" id="canvas"></canvas>
+    </div>
+
+
+    <script src="js/scritpt.js"></script>
+    <script src="js/confetti.js"></script>
+</body>
+</html>
